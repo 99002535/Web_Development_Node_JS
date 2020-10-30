@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         var uname = prompt('Enter username','Name');
+        var ppl = ['Suraj', 'Shweta', 'Tejasvi'];
+        for(var i=0;i<ppl.length;i++)
+        {
+            if(uname==ppl[i])
+            {
+                alert('Welcome '+uname+'!'); 
+                var flag=1;
+                break;
+            }
+        }
+        if(flag!=1){
+            alert('Invalid Username! Try again...');
+        }       
+    </script>
+</head>
+<body>
+</body>
+</html>

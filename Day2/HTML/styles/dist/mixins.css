@@ -1,0 +1,27 @@
+h2 {
+  background-color: green;
+  letter-spacing: 3px;
+  color: black;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}
+
+h2 {
+  background-color: green;
+  letter-spacing: 3px;
+  color: black;
+  text-transform: uppercase;
+  color: red;
+}
+
+h3 {
+  background-color: green;
+  letter-spacing: 3px;
+  color: black;
+  text-transform: uppercase;
+}
+
+p {
+  background-color: green;
+  color: black;
+}

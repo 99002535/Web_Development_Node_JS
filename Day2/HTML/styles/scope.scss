@@ -1,0 +1,18 @@
+$bgcolor:red;
+$color:cyan;
+$fontsize: 20px !global;
+h2{
+    background-color: $bgcolor;
+    $color: blue;
+    color:$color;
+    font-size: $fontsize;
+}
+p{
+    color:$color;
+    $bgcolor:orange !global;
+    background-color: $bgcolor;
+
+}
+h2{
+    color:$color
+}
