@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,6 +32,66 @@
     <textarea name="textarea" id="txtarea" cols="10" rows="10"></textarea><br>
     <input type="submit" name="submit" id="submit" value="Register">
     <input type="Reset" value="Clear">
+</form>
+</body>
+</html> -->
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>Form with Validation</title>
+<script src="validation.js"></script>
+</head>
+<body>
+<form action="demo1.html"method="POST"name="myform">
+<fieldset>
+<legend align="center">Form</legend>
+<table border="0.5"cellpadding="10"cellspacing="10">
+<tr>
+<td><b>Enter Name</b></td>
+<td><input type="text"name="username"id="uname"placeholder="Enter name"/></td>
+</td><br>
+</tr>
+<tr>
+<td><b>Enter Password</b></td>
+<td><input type="password"name="password"id="password"placeholder="Enter password"/></td>
+</tr>
+<tr>
+<td><b>Gender</b></td>
+<td><input type="radio"name="r1"value="Male">Male
+<input type="radio"name="r1"value="Female">Female</td>
+</tr>
+ 
+<tr>
+<td><b>Hobbies</b></td>
+<td><input type="checkbox"name="hobby"value="0">Sports
+<input type="checkbox"name="hobby"value="1">Music
+<input type="checkbox"name="hobby"value="2">Dance
+<input type="checkbox"name="hobby"value="3">Drawing</td>
+</tr>
+ 
+<tr>
+<td><b>Select Language</b></td>
+<td><select name="lang"id="lang"multiplesize ="3">
+<option value ="select">--select--</option>
+<option value ="Java">Java</option>
+<option value ="Hibernate">Hibernate</option>
+<option value ="HTML">HTML</option>
+<option value ="SPRING">Spring</option>
+ 
+</select></td>
+</tr>
+ 
+<tr>
+<td><textarea rows="10"cols="25"></textarea></td>
+</tr>
+<tr>
+<td><input type="submit"value="Register" onclick="validateForm()"/></td>
+<td><input type="Reset"value="Clear"/></td>
+</tr>
+</table>
+</fieldset>
 </form>
 </body>
 </html>
