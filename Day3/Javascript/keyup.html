@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Up</title>
+    <script>
+        function printText(){
+            data = document.getElementById("mytxtarea").value;
+            if(data==""){document.getElementById("mydiv").innerHTML}
+            else
+            document.getElementById("mydiv").innerHTML='Text entered is: '+data;
+        }
+        
+    </script>
+</head>
+<body>
+    Enter Comments
+    <textarea name="textarea" id="mytxtarea" cols="30" rows="10" placeholder="Enter your text here!" onkeyup="printText()"></textarea>
+    <div id="mydiv" style="background-color: yellow;"></div>
+</body>
+</html>
