@@ -44,7 +44,7 @@
 <script src="validation.js"></script>
 </head>
 <body>
-<form action="demo1.html"method="POST"name="myform">
+<form action="success.html"method="POST"name="myform">
 <fieldset>
 <legend align="center">Form</legend>
 <table border="0.5"cellpadding="10"cellspacing="10">
@@ -55,12 +55,12 @@
 </tr>
 <tr>
 <td><b>Enter Password</b></td>
-<td><input type="password"name="password"id="password"placeholder="Enter password"/></td>
+<td><input type="password"name="password"id="pswd"placeholder="Enter password"/></td>
 </tr>
 <tr>
 <td><b>Gender</b></td>
-<td><input type="radio"name="r1"value="Male">Male
-<input type="radio"name="r1"value="Female">Female</td>
+<td><input type="radio"name="r1"value="Male" id="male">Male
+<input type="radio"name="r1"value="Female"id="female">Female</td>
 </tr>
  
 <tr>
@@ -87,7 +87,7 @@
 <td><textarea rows="10"cols="25"></textarea></td>
 </tr>
 <tr>
-<td><input type="submit"value="Register" onclick="validateForm()"/></td>
+<td><input type="button"value="Register" onclick="validateForm()"/></td>
 <td><input type="Reset"value="Clear"/></td>
 </tr>
 </table>
