@@ -1,0 +1,23 @@
+[{
+    "title":"java in action",
+    "author":"kathy",
+    "price":"1000",
+    "category":"Tech"
+   },
+   {
+    "title":"java in performance",
+    "author":"Lala",
+    "price":"10000",
+    "category":"Knowledge"
+   },{
+    "title":"java in application",
+    "author":"Lalala",
+    "price":"2000",
+    "category":"Empowerment"
+   },{
+    "title":"Immortals of Meluha",
+    "author":"Amish Tripathi",
+    "price":"800",
+    "category":"Fiction"
+   }
+   ]
