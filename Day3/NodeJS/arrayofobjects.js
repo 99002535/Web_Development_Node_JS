@@ -28,7 +28,7 @@ var mobileList = [
         price: 40000,
         specs:{
             processor:'Qualcomm',
-            processormodel:'Snapdragon',
+            processodel:'Snapdragon',
             ram:'8GB',
             screensize: '5.5 inch',
             camera:'64MP'
